@@ -1,0 +1,45 @@
+html, body{
+    height: 100%;
+    background-color: rgb(29, 28, 28);
+    color: #ffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+
+
+.badge-translate-left{
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
+    position: fixed;
+    z-index: 9997;
+    
+}
+.badge-translate-right{
+    transform: translateX(90px);
+    margin-top: 5px;
+    margin-right: 5px;
+    position: fixed;
+    z-index: 9997;
+}
+
+
+.thrailer{
+    background-color: rgba(143, 137, 137, 0.5);
+}
+/* owl buttons */
+.owl-nav .owl-prev{
+    font-size: 20px;
+
+}
+.owl-nav .owl-next{
+    
+}
+
+
+.nav-pills .nav-link.active,
+ .nav-pills .show > .nav-link{
+     background-color: #ff3547;
+ }
